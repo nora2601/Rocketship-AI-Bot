@@ -1,0 +1,100 @@
+{
+  "high_end_luxury": {
+    "product_catalog": {
+      "p1": {
+        "name": "Gourmet Cake Mix",
+        "category": "Baking",
+        "tags": ["cake", "dessert", "baking"],
+        "description": "Bake a celebration."
+      },
+      "p2": {
+        "name": "Luxury Chocolate Chips",
+        "category": "Baking",
+        "tags": ["chocolate", "baking"],
+        "description": "Pure Belgian chocolate."
+      },
+      "p3": {
+        "name": "Everyday Muffin Mix",
+        "category": "Baking",
+        "tags": ["muffin", "baking"],
+        "description": "So simple, so good."
+      }
+    },
+    "inventory": {
+      "p1": {"stock": 0},
+      "p2": {"stock": 4},
+      "p3": {"stock": 10}
+    },
+    "seller_settings": {
+      "brand_voice": "Luxury",
+      "custom_emojis": {
+        "qualify": "🎁",
+        "alt": "🌟",
+        "in_stock": "✔️",
+        "bridge": "✨"
+      },
+      "shipping_info": "We ship via JNE/JNT within 24 hours. Usually takes 2-3 days.",
+      "platforms": {
+        "main": "WhatsApp",
+        "shopee_link": "shopee.co.id/luxurybakes",
+        "payment_method": "BCA Transfer or ShopeePay"
+      },
+      "refund_policy": "Returns allowed within 7 days if the seal is unbroken."
+    }
+  },
+  "friendly_local_mart": {
+    "product_catalog": {
+      "p10": {
+        "name": "Vanilla Cake Mix",
+        "category": "Baking",
+        "tags": ["cake", "vanilla"],
+        "description": "Family favorite."
+      },
+      "p11": {
+        "name": "Chocolate Chips",
+        "category": "Baking",
+        "tags": ["chocolate"],
+        "description": "Perfect for cookies."
+      },
+      "p12": {
+        "name": "Brownie Mix",
+        "category": "Baking",
+        "tags": ["brownie"],
+        "description": "Fudgy and easy."
+      }
+    },
+    "inventory": {
+      "p10": {"stock": 0},
+      "p11": {"stock": 8},
+      "p12": {"stock": 15}
+    },
+    "seller_settings": {
+      "brand_voice": "Sassy",
+      "custom_emojis": {
+        "qualify": "🛍️",
+        "alt": "😎",
+        "in_stock": "👍",
+        "bridge": "🤩"
+      },
+      "shipping_info": "Standard local delivery in 1-2 business days.",
+      "platforms": {
+        "payment_method": "COD or Bank Transfer"
+      }
+    }
+  },
+  "friendly_mart": {
+    "product_catalog": {
+      "p1": {"name": "Cheap Biscuits", "category": "Snacks"}
+    },
+    "inventory": {
+      "p1": {"stock": 0}
+    },
+    "seller_settings": {
+      "brand_voice": "Friendly",
+      "shipping_info": "Standard local delivery 1-2 days",
+      "platforms": {
+        "payment_method": "COD or Bank Transfer"
+      }
+    }
+  }
+}
