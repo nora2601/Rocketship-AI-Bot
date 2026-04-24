@@ -1,1 +1,1 @@
-web: uvicorn sales_engine:app --host 0.0.0.0 --port $PORT
+web: uvicorn prxy:app --host 0.0.0.0 --port $PORT
